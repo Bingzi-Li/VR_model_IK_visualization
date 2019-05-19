@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 6e11077edd0ff4ee3bab637ab2b4552f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: chest
+    100002: clavicle.L
+    100004: clavicle.R
+    100006: eye.L
+    100008: eye.R
+    100010: Eyebrow002Mesh
+    100012: f_index.01.L
+    100014: f_index.01.R
+    100016: f_ring.01.L
+    100018: f_ring.01.R
+    100020: fedora_cockedMesh
+    100022: foot.L
+    100024: foot.R
+    100026: forearm.L
+    100028: forearm.R
+    100030: hand.L
+    100032: hand.R
+    100034: head
+    100036: HighPolyEyesMesh
+    100038: hips
+    100040: jaw
+    100042: jeans01Mesh
+    100044: mhair01Mesh
+    100046: neck
+    100048: //RootNode
+    100050: sample1
+    100052: sample1Mesh
+    100054: shin.L
+    100056: shin.R
+    100058: Shirt01Mesh
+    100060: shoes02Mesh
+    100062: spine
+    100064: thigh.L
+    100066: thigh.R
+    100068: thumb.02.L
+    100070: thumb.02.R
+    100072: thumb.03.L
+    100074: thumb.03.R
+    100076: toe.L
+    100078: toe.R
+    100080: upper_arm.L
+    100082: upper_arm.R
+    400000: chest
+    400002: clavicle.L
+    400004: clavicle.R
+    400006: eye.L
+    400008: eye.R
+    400010: Eyebrow002Mesh
+    400012: f_index.01.L
+    400014: f_index.01.R
+    400016: f_ring.01.L
+    400018: f_ring.01.R
+    400020: fedora_cockedMesh
+    400022: foot.L
+    400024: foot.R
+    400026: forearm.L
+    400028: forearm.R
+    400030: hand.L
+    400032: hand.R
+    400034: head
+    400036: HighPolyEyesMesh
+    400038: hips
+    400040: jaw
+    400042: jeans01Mesh
+    400044: mhair01Mesh
+    400046: neck
+    400048: //RootNode
+    400050: sample1
+    400052: sample1Mesh
+    400054: shin.L
+    400056: shin.R
+    400058: Shirt01Mesh
+    400060: shoes02Mesh
+    400062: spine
+    400064: thigh.L
+    400066: thigh.R
+    400068: thumb.02.L
+    400070: thumb.02.R
+    400072: thumb.03.L
+    400074: thumb.03.R
+    400076: toe.L
+    400078: toe.R
+    400080: upper_arm.L
+    400082: upper_arm.R
+    2100000: sample1
+    2100002: shoes02
+    2100004: Shirt01
+    2100006: fedora_cocked
+    2100008: jeans01
+    2100010: mhair01
+    2100012: HighPolyEyes
+    2100014: Eyebrow002
+    4300000: sample1Mesh
+    4300002: shoes02Mesh
+    4300004: Shirt01Mesh
+    4300006: fedora_cockedMesh
+    4300008: jeans01Mesh
+    4300010: mhair01Mesh
+    4300012: HighPolyEyesMesh
+    4300014: Eyebrow002Mesh
+    9500000: //RootNode
+    13700000: Eyebrow002Mesh
+    13700002: fedora_cockedMesh
+    13700004: HighPolyEyesMesh
+    13700006: jeans01Mesh
+    13700008: mhair01Mesh
+    13700010: sample1Mesh
+    13700012: Shirt01Mesh
+    13700014: shoes02Mesh
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.099999994
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
