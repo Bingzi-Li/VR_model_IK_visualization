@@ -42,7 +42,7 @@ public class SkinSelect : MonoBehaviour
         {
             //set the material to blue
 
-            //rend.material.SetColor("myColor", Color.blue);
+
             material.color = Color.blue;
         }
 
@@ -56,7 +56,7 @@ public class SkinSelect : MonoBehaviour
         else
         {
             //set the material to blue
-
+            //rend.material.SetColor("myColor", Color.blue);
             material.color = Color.blue;
         }
 
