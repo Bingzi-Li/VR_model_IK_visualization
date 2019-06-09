@@ -455,8 +455,62 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 2214fa978a2bd485bb154259ba7d7722, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c30d15eb4457348b6918c6721c252a9a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2214fa978a2bd485bb154259ba7d7722, type: 3}
+--- !u!1 &1006381305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 2214fa978a2bd485bb154259ba7d7722,
+    type: 3}
+  m_PrefabInstance: {fileID: 1006381304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1006381306 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400236, guid: 2214fa978a2bd485bb154259ba7d7722,
+    type: 3}
+  m_PrefabInstance: {fileID: 1006381304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1006381307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400234, guid: 2214fa978a2bd485bb154259ba7d7722,
+    type: 3}
+  m_PrefabInstance: {fileID: 1006381304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1006381308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006381305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8aeae93a37164609a7ed01c84e6c87a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ikActive: 1
+  leftHandObj: {fileID: 1006381306}
+  rightHandObj: {fileID: 1006381307}
+  headObj: {fileID: 897561231}
+--- !u!114 &1006381309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006381305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb12446a16947476db3bd4c5dc4cba7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 897561231}
+  smoothSpeed: 0
+  gameObject2: {fileID: 1209341038}
+  rend: {fileID: 1209341040}
 --- !u!4 &1015896161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400026, guid: 6e11077edd0ff4ee3bab637ab2b4552f,
