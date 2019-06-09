@@ -5,7 +5,7 @@
       <File FileName="Assets/setAvatarCtrlMirror.cs" Line="28" Column="44" />
       <File FileName="Assets/animationCtrl.cs" Line="25" Column="46" />
       <File FileName="Assets/viewRotate.cs" Line="13" Column="6" />
-      <File FileName="Assets/SkinSelect.cs" Line="60" Column="41" />
+      <File FileName="Assets/SkinSelect.cs" Line="59" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
