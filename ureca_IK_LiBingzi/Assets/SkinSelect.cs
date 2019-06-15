@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class SkinSelect : MonoBehaviour
 {
-    //public Material skin1, skin2;
-    public GameObject skin;
-    public Renderer rend;
+
+    public GameObject llb, llf, lub, luf, rlb, rlf, rub, ruf;
+    public Renderer rllb, rllf, rlub, rluf, rrlb, rrlf, rrub, rruf;
     public Transform upperarmR, upperarmL, jointR, jointL, handR, handL;
-    public Material material;
     int bit = 1;
 
     // Start is called before the first frame update
     void Start()
     {
-        rend = skin.GetComponent<Renderer>();
+        rllb = llb.GetComponent<Renderer>();
+        rllf = llf.GetComponent<Renderer>();
+        rlub = lub.GetComponent<Renderer>();
+        rluf = luf.GetComponent<Renderer>();
+        rrlb = rlb.GetComponent<Renderer>();
+        rrlf = rlf.GetComponent<Renderer>();
+        rrub = rub.GetComponent<Renderer>();
+        rruf = ruf.GetComponent<Renderer>();
+       
         //rend.enabled = true;
         //rend.material = skin1;
     }
@@ -32,10 +39,10 @@ public class SkinSelect : MonoBehaviour
         float angleL = Vector3.Angle(upperarmLPos - jointLPos, handLPos - jointLPos);
         float angleR = Vector3.Angle(upperarmRPos - jointRPos, handRPos - jointRPos);
         //rend.material.shader = Shader.Find("Shirt01");
-        if (angleL < 90f)
+        /*if (angleL < 90f)
         {
             //set the material to red
-            material.color = Color.red;
+            rllb.material.SetColor('rllb', (0, 0, 1, 1));
 
         }
         else
@@ -43,21 +50,19 @@ public class SkinSelect : MonoBehaviour
             //set the material to blue
 
 
-            material.color = Color.blue;
         }
 
         if (angleR < 90f)
         {
             //set the material to red
 
-            material.color = Color.red;
-
+           
         }
         else
         {
             //set the material to blue
 
-            material.color = Color.blue;
+            
         }
 
         // testing
@@ -79,8 +84,10 @@ public class SkinSelect : MonoBehaviour
                 material.color = Color.blue;
                 bit = 1;
             }
-        }
-          
+        }*/
+
+        rllb.material.SetColor('rllb', (angleR/180f, angleR/180f, angleR/180f, 1));
+
     }
 
     

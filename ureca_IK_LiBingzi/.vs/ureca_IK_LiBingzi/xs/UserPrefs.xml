@@ -1,11 +1,7 @@
 ﻿<Properties StartupConfiguration="{2257AFEF-FE7F-E7CE-050A-7FBF720A4FAF}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SkinSelect.cs">
     <Files>
-      <File FileName="Assets/IKContrl.cs" Line="7" Column="5" />
-      <File FileName="Assets/setAvatarCtrlMirror.cs" Line="28" Column="44" />
-      <File FileName="Assets/animationCtrl.cs" Line="25" Column="46" />
-      <File FileName="Assets/viewRotate.cs" Line="13" Column="6" />
-      <File FileName="Assets/SkinSelect.cs" Line="59" Column="13" />
+      <File FileName="Assets/SkinSelect.cs" Line="59" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
